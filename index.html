@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js">
+        /*document.write('Hello');
+        let y = "1";
+        y = "année 20220";
+        const date = new Date();
+        const year = date.getFullYear();
+        document.write(`Année : ${date}`);
+        document.write(y);*/
+    </script>
+    
+</head>
+<body>
+    <h1>SURVIVORS OF DEAD BY DAYLIGHT</h1>
+    <div id="add">
+        <h3>ADD A SURVIVOR : </h3>
+        <p>Name : <input type="text" id="add_name">
+        Skills : <input type="text" id="add_skills">
+        DLC : <input type="text" id="add_dlc">
+        Image : <input type="text" id="add_img">
+        <button onclick="addsurvivor()">Add :</button></p>
+    </div>
+    <div id="delete">
+        <h3>DELETE A SURVIVOR : </h3>
+        <p>Name : <input type="text" id="del_name">
+        <button onclick="delsurvivor()">Supprimer</button></p>
+    </div>
+    <div id="update">
+        <h3>UPDATE A SURVIVOR : </h3>
+        <p>Name : <input type="text" id="up_name">
+        Skills : <input type="text" id="up_skills">
+        DLC : <input type="text" id="up_dlc">
+        Image : <input type="text" id="up_img">
+        <button onclick="upsurvivor()">Modifier</button></p>
+    </div>
+    <div id="survivor"></div>
+
+
+</body>
+</html>
